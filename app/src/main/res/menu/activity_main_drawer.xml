@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="@string/appbar1" />
+        <item
+            android:id="@+id/nav_maps"
+            android:icon="@drawable/ic_location_on_black_24dp"
+            android:title="@string/appbar2" />
+        <item
+            android:id="@+id/nav_wifi"
+            android:icon="@drawable/ic_network_wifi_black_24dp"
+            android:title="@string/appbar3" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_help_black_24dp"
+            android:title="@string/appbar4" />
+    </group>
+
+</menu>
